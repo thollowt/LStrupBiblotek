@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Make use of index.php to add books-->
+    <form action="index.php" method="post">
+        <div class="form-group">
+            <label for="title">Titel</label>
+            <input type="text" class="form-control" id="title" name="Titel" placeholder="Skriv titel">
+        </div>
+        <div class="form-group">
+            <label for="author">forfatter</label>
+            <input type="text" class="form-control" id="author" name="Forfatter" placeholder="Skriv forfatter">
+        </div>
+        <div class="form-group">
+            <label for="isbn">ISBN</label>
+            <input type="text" class="form-control" id="isbn" name="ISBN" placeholder="Skriv ISBN">
+        </div>
+        <div class="form-group">
+            <label for="forlag">Forlag</label>
+            <input type="text" class="form-control" id="publisher" name="Forlag" placeholder="Skriv forlag">
+        </div>
+        <div class="form-group">
+            <label for="year">Udgivelses år</label>
+            <input type="text" class="form-control" id="year" name="Udgivelsesår" placeholder="Skriv Udgivelse år">
+        </div>
+        <div class="form-group">
+            <label for="Bogkategori">Bogkategori</label>
+            <input type="text" class="form-control" id="Bogkategori" name="Bogkategori" placeholder="Skriv BogkategoriID: ">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+</body>
+</html>
